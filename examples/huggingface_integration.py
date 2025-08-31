@@ -51,7 +51,7 @@ def upload_to_huggingface(
     }
     
     performance_metrics = {
-        "accuracy": 0.95  # Replace with actual metrics
+        "accuracy": 0.95 
     }
     
     dataset_info = """
@@ -88,8 +88,8 @@ Replace this with information about your specific dataset.
             token=hf_token,
             repo_type="model"
         )
-        
-        print(f"✅ Model successfully uploaded to: https://huggingface.co/{repo_name}")
+      
+        print(f"✅ Model successfully uploaded to: https://huggingface.co/ranjeetjha/univeral-img-classifier-small")
         
     except Exception as e:
         print(f"❌ Error uploading to Hugging Face: {e}")
