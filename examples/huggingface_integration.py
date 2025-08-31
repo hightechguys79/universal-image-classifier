@@ -10,7 +10,7 @@ from huggingface_hub import HfApi, create_repo, upload_folder
 import json
 
 def upload_to_huggingface(
-    model_path: str,
+    model_path: str, 
     config_path: str,
     class_names: list,
     model_name: str,

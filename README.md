@@ -30,7 +30,7 @@ A flexible, PyTorch-based image classification framework designed for easy adapt
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/universal-image-classifier.git
+git clone https://github.com/2hightechguys/universal-image-classifier.git
 cd universal-image-classifier
 
 # Install dependencies
@@ -59,7 +59,7 @@ model_config = ModelConfig(
 
 training_config = TrainingConfig(
     batch_size=64,
-    learning_rate=0.001,
+    learning_rate=0.001, 
     num_epochs=100
 )
 
@@ -302,7 +302,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### Development Setup
 ```bash
 # Clone and install in development mode
-git clone https://github.com/yourusername/universal-image-classifier.git
+git clone https://github.com/2hightechguys/universal-image-classifier.git
 cd universal-image-classifier
 pip install -e .
 
@@ -326,8 +326,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/universal-image-classifier/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/universal-image-classifier/discussions)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/2hightechguys/universal-image-classifier/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/2hightechguys/universal-image-classifier/discussions)
 - 📧 **Email**: your.email@example.com
 
 ## 🗺️ Roadmap

@@ -18,7 +18,7 @@ class ClassificationLoss(nn.Module):
         if self.label_smoothing > 0:
             return F.cross_entropy(logits, target, label_smoothing=self.label_smoothing)
         return F.cross_entropy(logits, target)
-
+ 
 class LinearClassifier(nn.Module):
     """Simple linear baseline classifier"""
     def __init__(self, config: Optional[ModelConfig] = None):

@@ -7,7 +7,7 @@ from typing import Optional, Tuple
 @dataclass
 class ModelConfig:
     """Configuration for model architecture"""
-    input_height: int = 64
+    input_height: int = 64 
     input_width: int = 64
     num_classes: int = 10
     hidden_dim: int = 128

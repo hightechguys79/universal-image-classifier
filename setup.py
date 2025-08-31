@@ -17,7 +17,7 @@ setup(
     description="A flexible, PyTorch-based image classification framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/universal-image-classifier",
+    url="https://github.com/2hightechguys/universal-image-classifier",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -38,7 +38,7 @@ setup(
     extras_require={
         "dev": [
             "pytest>=6.0",
-            "black>=21.0",
+            "black>=21.0", 
             "isort>=5.0",
             "flake8>=3.8",
             "mypy>=0.800",
@@ -54,8 +54,8 @@ setup(
     },
     keywords="image-classification pytorch machine-learning deep-learning computer-vision",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/universal-image-classifier/issues",
-        "Source": "https://github.com/yourusername/universal-image-classifier",
-        "Documentation": "https://github.com/yourusername/universal-image-classifier#readme",
+        "Bug Reports": "https://github.com/2hightechguys/universal-image-classifier/issues",
+        "Source": "https://github.com/2hightechguys/universal-image-classifier",
+        "Documentation": "https://github.com/2hightechguys/universal-image-classifier#readme",
     },
 )

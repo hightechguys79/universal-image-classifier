@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 
 from models import create_model, MODEL_REGISTRY
-from config import ModelConfig
+from config import ModelConfig 
 
 class UniversalImageClassifier:
     """Universal image classifier with flexible configuration"""
