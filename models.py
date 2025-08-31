@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from typing import Optional
-from config import ModelConfig
+from config import ModelConfig 
 
 class ClassificationLoss(nn.Module):
     """Multi-class classification loss with label smoothing option"""

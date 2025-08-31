@@ -96,7 +96,7 @@ class UniversalTrainer:
         use_wandb: bool = False,
         project_name: str = "universal-image-classifier"
     ):
-        """Train the model"""
+        """Train the model""" 
          
         if use_wandb:
             wandb.init(project=project_name, config={

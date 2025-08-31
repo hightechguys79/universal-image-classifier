@@ -38,7 +38,7 @@ def upload_to_huggingface(
         model_name=model_name,
         output_dir=export_dir
     )
-    
+     
     # Create model card
     with open(config_path, 'r') as f:
         model_config = json.load(f)

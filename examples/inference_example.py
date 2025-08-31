@@ -10,7 +10,7 @@ from utils import evaluate_model, plot_confusion_matrix, save_predictions
 import torch
 from PIL import Image
 import numpy as np
-
+ 
 def create_sample_images():
     """Create sample images for demonstration"""
     os.makedirs("sample_images", exist_ok=True)
@@ -122,7 +122,7 @@ def main():
     # Model information
     print("\n" + "="*50)
     print("MODEL INFORMATION")
-    print("="*50)
+    print("="*50) 
     
     from models import count_parameters, calculate_model_size_mb
     

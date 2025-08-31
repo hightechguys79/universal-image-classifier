@@ -1,6 +1,6 @@
 """
 Universal inference pipeline for image classification
-"""
+""" 
 import torch
 import torchvision.transforms as transforms
 from PIL import Image

@@ -27,9 +27,9 @@ Pull requests are the best way to propose changes to the codebase. We actively w
 
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project.
 
-## Report bugs using GitHub's [issue tracker](https://github.com/2hightechguys/universal-image-classifier/issues)
+## Report bugs using GitHub's [issue tracker](https://github.com/hightechguys79/universal-image-classifier/issues)
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/2hightechguys/universal-image-classifier/issues/new).
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/hightechguys79/universal-image-classifier/issues/new).
 
 ## Write bug reports with detail, background, and sample code
 
@@ -47,7 +47,7 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 ```bash
 # Clone your fork
-git clone https://github.com/2hightechguys/universal-image-classifier.git
+git clone https://github.com/hightechguys79/universal-image-classifier.git
 cd universal-image-classifier
 
 # Create virtual environment

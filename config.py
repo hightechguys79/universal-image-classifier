@@ -4,7 +4,7 @@ Configuration classes for the Universal Image Classifier
 from dataclasses import dataclass
 from typing import Optional, Tuple
 
-@dataclass
+@dataclass 
 class ModelConfig:
     """Configuration for model architecture"""
     input_height: int = 64 
